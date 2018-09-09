@@ -25,7 +25,7 @@ public class AdminPageTest extends TestBase {
 	public void setup(){
 		Lanuchchromedriver();
 		Lpage = new LoginPage();
-		homepage=Lpage.SignIn("Pumaenergy.admin@gep.com", "Password@123");
+		homepage=Lpage.SignIn("Pumaenergy.admin@gep.com", "Password@1234");
 		try {
 			AD=homepage.Admin("2.o");
 		} catch (Exception e) {
