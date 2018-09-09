@@ -36,7 +36,7 @@ public class RequisitionLandingPageTest extends TestBase {
 	
 	@AfterMethod
 	public void Teardown(){
-	//	driver.quit();
+		driver.quit();
 	}
 
 }

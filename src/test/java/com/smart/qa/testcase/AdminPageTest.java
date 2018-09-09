@@ -40,7 +40,7 @@ public class AdminPageTest extends TestBase {
 	
 	@AfterMethod
 	public void Teardown(){
-		//driver.quit();
+		driver.quit();
 	}
 
 }
