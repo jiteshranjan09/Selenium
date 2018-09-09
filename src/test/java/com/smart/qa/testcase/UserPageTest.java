@@ -29,7 +29,7 @@ public class UserPageTest extends TestBase {
 		Lpage = new LoginPage();
 		homepage=Lpage.SignIn(prob.getProperty("UserName"), prob.getProperty("Password"));
 		try {
-			AD=homepage.Admin("2.o");
+			AD=homepage.Admin("1.o");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

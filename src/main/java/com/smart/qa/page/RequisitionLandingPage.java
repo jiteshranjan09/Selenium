@@ -30,8 +30,8 @@ public class RequisitionLandingPage extends TestBase{
 		CreateBtn = driver.findElement(CreateREQ);
 		if (CreateBtn.isEnabled()){
 			CreateBtn.click(); 
-			wait(10);
-			BlankOption=driver.findElement(Blank);
+			BlankOption=elementToBeClickable(driver, Blank);
+			Thread.sleep(1000);
 			if (BlankOption.isEnabled()){
 				BlankOption.click();
 			}
