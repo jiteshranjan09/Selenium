@@ -21,14 +21,17 @@ public class CreateUserPageTest_Ascena extends TestBase {
 	String sheetName = "Ascena";
 	
 	public CreateUserPageTest_Ascena(){
-		super();	
+		
+		super();
+		System.out.println("inside Test Ascena COnstructor");
 	}
 	
 	@BeforeMethod
 	public void setup(){
+		System.out.println("inside Test Ascena Set up");
 		Lanuchchromedriver();
 		Lpage = new LoginPage();
-		homepage=Lpage.SignIn("atg.admin@gep.com", "Password@123");
+		homepage=Lpage.SignIn("Pumaenergy.admin@gep.com", "Password@123");
 		try {
 			AD=homepage.Admin("2.o");
 		} catch (Exception e) {
@@ -40,6 +43,7 @@ public class CreateUserPageTest_Ascena extends TestBase {
 	
 	@DataProvider
 	public String[][] getUserCreationData(){
+		System.out.println("inside Test Ascena Data Provider");
 		String data[][] = com.smart.qa.util.TestUtil.getTestData(sheetName);
 		return data;
 	}

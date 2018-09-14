@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.smart.qa.testcase.CreateUserPageTest_Ascena"/>
+      <class name="com.smart.qa.testcase.CreateUserPage_Test"/>
+      <class name="com.smart.qa.testcase.LoginPageTest"/>
+      <class name="com.smart.qa.testcase.CreateUserPageTest_PUMA"/>
+      <class name="com.smart.qa.testcase.CreateUserPageTest_CBT"/>
+      <class name="com.smart.qa.testcase.RequisitionLandingPageTest"/>
+      <class name="com.smart.qa.testcase.AdminPageTest"/>
+      <class name="com.smart.qa.testcase.CreateUserPageTestAscena"/>
+      <class name="com.smart.qa.testcase.UserPageTest"/>
+      <class name="com.smart.qa.testcase.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
