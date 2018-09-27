@@ -28,6 +28,7 @@ public class InvoiceLandingPage {
 			CreateBtn.click();
 			if (BlankOption.isEnabled()){
 				BlankOption.click();
+				System.out.println("test");
 			}
 		}
 		System.out.println("Redirect to BlankRequisition page successfully");
