@@ -7,6 +7,9 @@ public class BlankInvoicePage {
 		System.out.println("DELL");
 		System.out.println("Iball");
 		System.out.println("Iball");
+		System.out.println("Iball");
+		System.out.println("Iball");
+		System.out.println("DELL");
 	}
 	public void Test() {
 		System.out.println("Iball");
